@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textLogo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="22mm"
+        android:fontFamily="@font/montserrat_alternates_bold"
+
+        android:text="@string/physinf"
+        android:textColor="@color/textColor1"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/physInfBtn"
+        android:layout_width="179dp"
+        android:layout_height="60dp"
+        android:layout_below="@+id/textLogo"
+        android:layout_marginStart="18mm"
+        android:layout_marginTop="8.5mm"
+        android:backgroundTint="#777"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:text="@string/physInfoBtnTxt"
+        android:textColor="#FFF"
+        android:textSize="15sp"
+        tools:ignore="InOrMmUsage,TextContrastCheck" />
+
+    <Button
+        android:id="@+id/physCalcBtn"
+        android:layout_width="179dp"
+        android:layout_height="60dp"
+        android:fontFamily="@font/montserrat_alternates_bold"
+        android:textSize="15sp"
+        android:layout_below="@+id/physInfBtn"
+        android:layout_marginLeft="18mm"
+        android:layout_marginTop="44dp"
+        android:backgroundTint="#777"
+        android:text="@string/physCalcBtnTxt" />
+
+
+</RelativeLayout>

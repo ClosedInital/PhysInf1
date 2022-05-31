@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundColor"
+    tools:context=".kinFormulesAct">
+
+    <!-- Мех. движение и виды --> <ScrollView
+        android:id="@+id/act1"
+        android:layout_width="match_parent"
+        android:layout_height="100mm"
+
+        android:visibility="visible"
+        >
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/kinTxt1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10sp"
+                android:fontFamily="@font/montserrat_alternates_black"
+                android:text="@string/kinTxt1"
+                android:textColor="#c2c2c2"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/kinTxt2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kinTxt1"
+                android:layout_marginTop="10sp"
+                android:fontFamily="@font/montserrat_alternates_black"
+                android:text="@string/kinTxt2"
+                android:textColor="#c2c2c2"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/kinTxt3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kinTxt2"
+
+                android:background="#333"
+                android:fontFamily="@font/montserrat_alternates_black"
+                android:text="@string/kinTxt3"
+                android:textColor="#c2c2c2"
+                android:textSize="13sp" />
+            <TextView
+                android:id="@+id/kinTxt4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kinTxt3"
+                android:fontFamily="@font/montserrat_alternates_black"
+                android:text="@string/kinTxt4"
+                android:textColor="#c2c2c2"
+                android:layout_marginTop="10sp"
+                android:textSize="15sp" />
+
+            <TextView
+                android:id="@+id/kinTxt5"
+                android:layout_width="match_parent"
+                android:layout_height="65dp"
+                android:layout_below="@id/kinTxt4"
+                android:background="#333"
+                android:fontFamily="@font/montserrat_alternates_black"
+                android:text="@string/kinTxt5"
+                android:textColor="#c2c2c2"
+
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/kinTxt6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kinTxt5"
+                android:fontFamily="@font/montserrat_alternates_black"
+                android:text="@string/kinTxt6"
+                android:textColor="#c2c2c2"
+                android:layout_marginTop="10sp"
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/kinTxt7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kinTxt6"
+                android:background="#333"
+                android:fontFamily="@font/montserrat_alternates_black"
+                android:text="@string/kinTxt7"
+                android:textColor="#c2c2c2"
+
+                android:textSize="13sp" />
+
+            <TextView
+                android:id="@+id/kinTxt8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kinTxt7"
+                android:fontFamily="@font/montserrat_alternates_black"
+                android:text="@string/kinTxt8"
+                android:layout_marginTop="10sp"
+                android:textColor="#c2c2c2"
+                android:textSize="15sp" />
+            <TextView
+                android:id="@+id/kinTxt9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/kinTxt8"
+                android:background="#333"
+                android:fontFamily="@font/montserrat_alternates_black"
+                android:text="@string/kinTxt9"
+                android:textColor="#c2c2c2"
+                android:textSize="13sp" />
+
+
+        </RelativeLayout>
+
+    </ScrollView> <!-- Мех. движение и виды -->
+    <Button
+        android:id="@+id/nextbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/act1"
+        android:layout_marginStart="49mm"
+        android:text="Дальше"
+        tools:ignore="InOrMmUsage"
+        android:textColor="@color/textColor1"
+        android:backgroundTint="#333"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/act1"
+        android:id="@+id/homebtn"
+        android:text="К выбору раздела"
+        android:textColor="@color/textColor1"
+        android:backgroundTint="#333"
+        />
+
+
+</RelativeLayout>
